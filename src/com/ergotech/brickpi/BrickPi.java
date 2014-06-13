@@ -28,7 +28,7 @@ public class BrickPi {
     /**
      * The current debug level.
      */
-    public static int DEBUG_LEVEL = 0;
+    public static int DEBUG_LEVEL = 1;
 
     /**
      * It would seem to be a desirable, and fairly likely feature that the brick
@@ -363,7 +363,7 @@ public class BrickPi {
                 Sensor currentSensor = sensorType[counter * 2 + sensorCount];
                 if (currentSensor != null) {
                     // request that each sensor encode itself into the packet.
-                    currentSensor.encodeToSetup(sensorData, startingBitLocation);
+                    startingBitLocation = currentSensor.encodeToSetup(sensorData, startingBitLocation);
                 }
             }
             byte[] sensorBytes = sensorData.toByteArray();
