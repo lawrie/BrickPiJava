@@ -33,6 +33,31 @@ public abstract class Sensor {
     public static final byte TYPE_SENSOR_COLOR_NONE = 40;
     public static final byte TYPE_SENSOR_I2C = 41;
     public static final byte TYPE_SENSOR_I2C_9V = 42;
+    
+    public static final byte TYPE_SENSOR_EV3_US_M0        = 43;
+    public static final byte TYPE_SENSOR_EV3_US_M1        = 44;
+    public static final byte TYPE_SENSOR_EV3_US_M2        = 45;
+    public static final byte TYPE_SENSOR_EV3_US_M3        = 46;
+    public static final byte TYPE_SENSOR_EV3_US_M4        = 47;
+    public static final byte TYPE_SENSOR_EV3_US_M5        = 48;
+    public static final byte TYPE_SENSOR_EV3_US_M6        = 49;
+    public static final byte TYPE_SENSOR_EV3_COLOR_M0     = 50;
+    public static final byte TYPE_SENSOR_EV3_COLOR_M1     = 51;
+    public static final byte TYPE_SENSOR_EV3_COLOR_M2     = 52;
+    public static final byte TYPE_SENSOR_EV3_COLOR_M3     = 53;
+    public static final byte TYPE_SENSOR_EV3_COLOR_M4     = 54;
+    public static final byte TYPE_SENSOR_EV3_COLOR_M5     = 55;
+    public static final byte TYPE_SENSOR_EV3_GYRO_M0      = 56;
+    public static final byte TYPE_SENSOR_EV3_GYRO_M1      = 57;
+    public static final byte TYPE_SENSOR_EV3_GYRO_M2      = 58;
+    public static final byte TYPE_SENSOR_EV3_GYRO_M3      = 59;
+    public static final byte TYPE_SENSOR_EV3_GYRO_M4      = 60;
+    public static final byte TYPE_SENSOR_EV3_INFRARED_M0  = 61;
+    public static final byte TYPE_SENSOR_EV3_INFRARED_M1  = 62;
+    public static final byte TYPE_SENSOR_EV3_INFRARED_M2  = 63;
+    public static final byte TYPE_SENSOR_EV3_INFRARED_M3  = 64;
+    public static final byte TYPE_SENSOR_EV3_INFRARED_M4  = 65;
+    public static final byte TYPE_SENSOR_EV3_INFRARED_M5  = 66;
 
     /**
      * The current value of the sensor.
